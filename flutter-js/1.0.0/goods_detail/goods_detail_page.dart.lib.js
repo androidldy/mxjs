@@ -38,7 +38,7 @@ dart.setMethodSignature(goods_detail_page.GoodsDetailPage, () => ({
 dart.setLibraryUri(goods_detail_page.GoodsDetailPage, L0);
 goods_detail_page.GoodsDetailPageState = class GoodsDetailPageState extends framework.State$(goods_detail_page.GoodsDetailPage) {
   build(context) {
-    return new scaffold.Scaffold.new({appBar: new app_bar.AppBar.new({leading: new gesture_detector.GestureDetector.new({onTap: dart.fn(() => navigator.Navigator.pop(core.Object, context), VoidTobool()), child: new icon.Icon.new(icons.Icons.arrow_back_ios)}), title: new text.Text.new("商品详情-1")}), body: new basic.Center.new({child: new text.Text.new("商品详情-1")})});
+    return new scaffold.Scaffold.new({appBar: new app_bar.AppBar.new({leading: new gesture_detector.GestureDetector.new({onTap: dart.fn(() => navigator.Navigator.pop(core.Object, context), VoidTobool()), child: new icon.Icon.new(icons.Icons.arrow_back_ios)}), title: new text.Text.new("商品详情-1.0.0")}), body: new basic.Center.new({child: new text.Text.new("商品详情-1")})});
   }
 };
 (goods_detail_page.GoodsDetailPageState.new = function() {
